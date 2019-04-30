@@ -1,0 +1,76 @@
+layer2.lo: layer2.c ../config.h common.h mpg123.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdio.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/__config \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdio.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/features.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/alltypes.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/strings.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/signal.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/signal.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/math.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/math.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/math.h \
+  mpglib.h ../include/lame.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stddef.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stddef.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdarg.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdarg.h \
+  layer2.h l2tables.h decode_i386.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/assert.h
+
+../config.h:
+
+common.h:
+
+mpg123.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdio.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/__config:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdio.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/features.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/alltypes.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/strings.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/signal.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/signal.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/math.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/math.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/math.h:
+
+mpglib.h:
+
+../include/lame.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stddef.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stddef.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdarg.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdarg.h:
+
+layer2.h:
+
+l2tables.h:
+
+decode_i386.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/assert.h:

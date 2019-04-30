@@ -1,0 +1,158 @@
+vbrquantize.lo: vbrquantize.c ../config.h ../include/lame.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stddef.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/__config \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stddef.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/alltypes.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdarg.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdarg.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdio.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdio.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/features.h \
+  machine.h version.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/assert.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdlib.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdlib.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdlib.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/alloca.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/strings.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/math.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/math.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/math.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/limits.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/limits.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/limits.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/ctype.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/ctype.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/ctype.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/errno.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/errno.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/errno.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/fcntl.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/fcntl.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/types.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/endian.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdint.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdint.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/stdint.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/select.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/sysmacros.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/sys/stat.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/stat.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/stat.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/inttypes.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/inttypes.h \
+  encoder.h util.h l3side.h id3tag.h lame_global_flags.h vbrquantize.h \
+  quantize_pvt.h
+
+../config.h:
+
+../include/lame.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stddef.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/__config:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stddef.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/alltypes.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdarg.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdarg.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdio.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdio.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/features.h:
+
+machine.h:
+
+version.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/assert.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdlib.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdlib.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdlib.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/alloca.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/strings.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/math.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/math.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/math.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/limits.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/limits.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/limits.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/ctype.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/ctype.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/ctype.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/errno.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/errno.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/errno.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/fcntl.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/fcntl.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/types.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/endian.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdint.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdint.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/stdint.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/select.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/sysmacros.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/sys/stat.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/sys/stat.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/stat.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/inttypes.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/inttypes.h:
+
+encoder.h:
+
+util.h:
+
+l3side.h:
+
+id3tag.h:
+
+lame_global_flags.h:
+
+vbrquantize.h:
+
+quantize_pvt.h:

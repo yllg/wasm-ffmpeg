@@ -1,0 +1,62 @@
+tabinit.lo: tabinit.c ../config.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdlib.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/__config \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdlib.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdlib.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/features.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/alltypes.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/alloca.h \
+  tabinit.h mpg123.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdio.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdio.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/string.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/strings.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/signal.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/signal.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/math.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/math.h \
+  /Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/math.h
+
+../config.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdlib.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/__config:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/stdlib.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdlib.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/features.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/alltypes.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/alloca.h:
+
+tabinit.h:
+
+mpg123.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/stdio.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/stdio.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/string.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/strings.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/signal.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/bits/signal.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libcxx/math.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/compat/math.h:
+
+/Users/lijing/Desktop/codemao/emsdk/emscripten/1.38.30/system/include/libc/math.h:

@@ -1,0 +1,3 @@
+mpglib_interface.lo: mpglib_interface.c ../config.h
+
+../config.h:

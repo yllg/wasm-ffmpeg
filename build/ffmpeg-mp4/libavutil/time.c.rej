@@ -1,0 +1,34 @@
+***************
+*** 55,61 ****
+  
+  int64_t av_gettime_relative(void)
+  {
+- #if HAVE_CLOCK_GETTIME && defined(CLOCK_MONOTONIC)
+      struct timespec ts;
+      clock_gettime(CLOCK_MONOTONIC, &ts);
+      return (int64_t)ts.tv_sec * 1000000 + ts.tv_nsec / 1000;
+--- 55,61 ----
+  
+  int64_t av_gettime_relative(void)
+  {
++ #if 0 && HAVE_CLOCK_GETTIME && defined(CLOCK_MONOTONIC)
+      struct timespec ts;
+      clock_gettime(CLOCK_MONOTONIC, &ts);
+      return (int64_t)ts.tv_sec * 1000000 + ts.tv_nsec / 1000;
+***************
+*** 66,72 ****
+  
+  int av_gettime_relative_is_monotonic(void)
+  {
+- #if HAVE_CLOCK_GETTIME && defined(CLOCK_MONOTONIC)
+      return 1;
+  #else
+  
+--- 66,72 ----
+  
+  int av_gettime_relative_is_monotonic(void)
+  {
++ #if 0 && HAVE_CLOCK_GETTIME && defined(CLOCK_MONOTONIC)
+      return 1;
+  #else
+  

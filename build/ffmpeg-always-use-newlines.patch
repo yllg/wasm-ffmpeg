@@ -1,0 +1,13 @@
+diff --git a/fftools/ffmpeg.c b/fftools/ffmpeg.c
+index 934dc71a74..38c0ed2e47 100644
+--- a/fftools/ffmpeg.c
++++ b/fftools/ffmpeg.c
+@@ -1818,6 +1818,6 @@ static void print_report(int is_last_report, int64_t timer_start, int64_t cur_ti
+     }
+ 
+     if (print_stats || is_last_report) {
+-        const char end = is_last_report ? '\n' : '\r';
++        const char end = '\n';
+         if (print_stats==1 && AV_LOG_INFO > av_log_get_level()) {
+             fprintf(stderr, "%s    %c", buf.str, end);
+         } else

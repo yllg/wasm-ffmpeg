@@ -1,0 +1,39 @@
+diff --git a/libavformat/file.c b/libavformat/file.c
+index 264542a..87b9337 100644
+--- a/libavformat/file.c
++++ b/libavformat/file.c
+@@ -38,6 +38,9 @@
+ #include "os_support.h"
+ #include "url.h"
+ 
++extern int emscripten_binary_read(unsigned char* buf, int size);
++extern int emscripten_binary_write(const uint8_t* buf, int size);
++
+ /* Some systems may not have S_ISFIFO */
+ #ifndef S_ISFIFO
+ #  ifdef S_IFIFO
+@@ -109,7 +112,11 @@ static int file_read(URLContext *h, unsigned char *buf, int size)
+     FileContext *c = h->priv_data;
+     int ret;
+     size = FFMIN(size, c->blocksize);
+-    ret = read(c->fd, buf, size);
++    if(c->fd == 0) {
++      ret = emscripten_binary_read(buf, size);
++    } else {
++      ret = read(c->fd, buf, size);
++    }
+     if (ret == 0 && c->follow)
+         return AVERROR(EAGAIN);
+     return (ret == -1) ? AVERROR(errno) : ret;
+@@ -120,6 +127,10 @@ static int file_write(URLContext *h, const unsigned char *buf, int size)
+     FileContext *c = h->priv_data;
+     int ret;
+     size = FFMIN(size, c->blocksize);
+-    ret = write(c->fd, buf, size);
++    if(c->fd == 1) {
++      ret = emscripten_binary_write(buf, size);
++    } else {
++      ret = write(c->fd, buf, size);
++    }
+     return (ret == -1) ? AVERROR(errno) : ret;
+ }

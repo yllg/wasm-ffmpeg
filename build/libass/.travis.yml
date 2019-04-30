@@ -1,0 +1,43 @@
+language: c
+
+env:
+  global:
+   # Coverity token
+   - secure: "QFUmMNyjyhXhe+zBfGNgnrrgR9NTks90AU6BQXYCxBZm+aaRjjxkN+ITjTJeHxZJEVpqDf/gtidh6KriSWMWM2TcH+ZSsAkVym9XUdk+0Nglh/5mulp++LsbmsERhed5F4YvGS0UAcXPAAv/dESmiJY/EaDPVgXxbTFMa85c6H8="
+
+os:
+  - linux
+  - osx
+
+sudo: required
+dist: trusty
+
+branches:
+  only:
+    - master
+    - ci
+    - coverity_scan
+
+before_install:
+  - (sudo apt-get update || brew update)
+  - (sudo apt-get install -y fontconfig libfribidi-dev yasm || brew install fontconfig freetype fribidi yasm) && ./autogen.sh && ./configure
+script:
+  - make -j4
+
+notifications:
+  email: false
+  irc:
+    channels:
+      - "irc.freenode.org#libass"
+    on_success: change
+    on_failure: always
+
+addons:
+  coverity_scan:
+    project:
+      name: "libass/libass"
+      description: "Build submitted via Travis CI"
+    notification_email: none@example.com
+    build_command_prepend: "./configure"
+    build_command:   "make -j4"
+    branch_pattern: coverity_scan

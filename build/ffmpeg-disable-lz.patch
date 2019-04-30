@@ -1,0 +1,12 @@
+diff --git a/configure b/configure
+index adb4c27..6254099 100755
+--- a/configure
++++ b/configure
+@@ -5583,7 +5583,7 @@ fi
+ enabled pthreads &&
+     check_builtin sem_timedwait semaphore.h "sem_t *s; sem_init(s,0,0); sem_timedwait(s,0); sem_destroy(s)"
+
+-disabled  zlib || check_lib   zlib.h      zlibVersion -lz   || disable  zlib
++#disabled  zlib || check_lib   zlib.h      zlibVersion -lz   || disable  zlib
+ disabled bzlib || check_lib2 bzlib.h BZ2_bzlibVersion -lbz2 || disable bzlib
+ disabled  lzma || check_lib2  lzma.h lzma_version_number -llzma || disable lzma
