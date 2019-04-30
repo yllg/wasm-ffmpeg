@@ -1,3 +1,18 @@
+# wasm-ffmpeg
+* 参考项目： [ffmpeg.js](https://github.com/Kagami/ffmpeg.js)
+
+<br>
+由于本人需要原项目ffmpeg-worker-webm.js的视频帧截图功能,和ffmpeg-worker-mp4.js的获取video音频的功能，所以修改了Makefile的相关配置，并添加了GIF的解码功能。
+最终生成文件如下:
+<br>
+ffmpeg-worker-mp4.js + ffmpeg-worker-mp4.wasm
+<br>
+ffmpeg-worker-mp4-asm.js
+
+<br>
+<br>
+原项目 readme如下:
+
 # ffmpeg.js
 
 [![NPM](https://nodei.co/npm/ffmpeg.js.png?downloads=true)](https://www.npmjs.com/package/ffmpeg.js)
